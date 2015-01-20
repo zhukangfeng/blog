@@ -1,0 +1,86 @@
+
+title {
+	color: red;
+}
+
+h1.title {
+	font-family: Arial, sans-serif;
+	font-size: 36px;
+	color: #369;
+	border-bottom: 1px solid black;	
+	text-align: center;
+}
+
+div.content {
+	position: fixed;
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+	
+	margin-right: 5%;
+	left: 85%;
+	width: 20%
+	text-align: left;
+	background-repeat: repeat-x;
+
+	float: right;
+}
+
+div.blog {
+	padding-right: 40px;
+	padding-left: 40px;
+	margin-left: 5%;
+
+	border:1px dashed #000;
+	width: 70%;
+}
+
+h2.blog_title {
+	font-size: 20px;
+}
+
+h3.blog_value {
+	text-indent: 2em;
+	font-size: 16px;
+}
+
+div.copyright {
+	bottom: 5px;
+	text-align: center;
+}
+
+div.left {
+	margin-left: 5%;
+
+}
+div.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.right {
+	margin-right: 25%;
+}
+
+div.page_choose {
+	text-align: center;
+}
+
+input.type_white {
+	width: 80px;
+	line-height: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+	color: #8c96a0;
+	text-shadow: 1px 1px 1px #fff;
+	border: 1px solid #dce1e6;
+	box-shadow: 0 1px 2px #fff inset,0 -1px 0 #a8abae inset;
+	background: -webkit-linear-gradient(top,#f2f3f7,#e4e8ec);
+	background: -moz-linear-gradient(top,#f2f3f7,#e4e8ec);
+	background: linear-gradient(top,#f2f3f7,#e4e8ec);
+	padding-right: 30px;
+	text-align: center;
+	
+}
