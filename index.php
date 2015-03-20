@@ -1,5 +1,6 @@
 <?php
 ob_start();
+include_once(dirname(__FILE__) . '/constant/env_properties.php');
 include_once(dirname(__FILE__) . '/constant/constant.php');
 //session_start();
 //$_SESSION[DB_USER_ID] = 1;
