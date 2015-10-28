@@ -1,7 +1,7 @@
 <?php
 ob_start();
 include_once (dirname(__FILE__) . '/../constant/constant.php');
-print_r($_COOKIE[DB_USER_NAME]);
+//print_r($_COOKIE[DB_USER_NAME]);
 //echo "1111";
 if (isset($_POST["login"])) {
 	//echo "2222";
@@ -30,13 +30,13 @@ if (isset($_POST["login"])) {
 			setcookie(DB_USER_BIRTHDAY, $user_info[DB_USER_BIRTHDAY], time() + 3600, "");
 			setcookie(DB_USER_REGISTER_TIME, $user_info[DB_USER_REGISTER_TIME], time() + 3600, "");
 			setcookie(DB_USER_LAST_LOGIN_TIME, $user_info[DB_USER_LAST_LOGIN_TIME], time() + 3600, "");
-			echo ($_COOKIE[DB_USER_NAME]);
+			//echo ($_COOKIE[DB_USER_NAME]);
 
 			$sql = "UPDATE " . DB_TABLE_USER . " SET " . DB_USER_LAST_LOGIN_TIME . " = CURRENT_TIMESTAMP WHERE " 
 					. DB_USER_ID . " = " . $user_info[DB_USER_ID] . ";";
 			$db_conn->query($sql);
 			//echo "string";
-			//echo($_COOKIE[DB_USER_NAME]);
+			echo($_COOKIE[DB_USER_NAME]);
 
 			echo "<script type='text/javascript'>  window.location.href='index.php'; </script>";
 
