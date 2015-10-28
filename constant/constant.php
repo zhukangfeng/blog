@@ -1,6 +1,11 @@
 <?php
 
 /**
+ * Timezone set
+ */
+date_default_timezone_set('Asia/Tokyo');
+
+/**
  * database's info
  **/
 define("DB_ADDRESS", "localhost");
