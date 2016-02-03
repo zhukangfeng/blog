@@ -58,18 +58,4 @@ define("FATHER_COMMENT_AUTHOR", "father_comment_author");
 define("POST_AUTHOR", "post_auhtor");
 define("PASSWORD_CONFIRM", "password_confirm");
 define("COMMENT_AUTHOR", "comment_author");
-//echo "1111";
-/**
-		$url = "index.php?page=about_me.php";
-		header('location:' . $url);
-	} else {
-		include(dirname(__FILE__).'/../model/about_me.php');
-		include(dirname(__FILE__).'/../view/about_me.php');
- * table's operation;
- **/
-//const DB_OP_GET_BLOG = "SELECT * FROM blog;";
-//const DB_OP_GET_BLOG_DESC = "SELECT * FROM blog BY id DESC;";
 
-//const "<br />               ???????????from constant ??????????<br />";
-
-?>
