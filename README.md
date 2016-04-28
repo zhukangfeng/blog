@@ -10,6 +10,4 @@ This is my first php project After I came to Japan.
 这个项目对新手、想学习php的人，可能会有一定的帮助，老手的话就不用看了哈（因为你看了这个糟糕的代码，估计你会奔溃的）
 
 虽然是很糟糕的一个程序，但是毕竟是自己的第一个项目，所以还是放在了服务器上，有兴趣的可以上这个网页查看(UI真的很糟糕！！！)
-http://zhukangfeng.xyz
-或者
-https://zhukangfeng.xyz/ (这个会提示警告，因为证书是我自己做的)
+https://zhuk.tk
